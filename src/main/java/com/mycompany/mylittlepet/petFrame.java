@@ -132,6 +132,8 @@ public class petFrame extends javax.swing.JFrame {
 
         imgLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/blue_dragon.png"))); // NOI18N
 
+        nameLabel.setFont(new java.awt.Font("Ubuntu Light", 0, 18)); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -184,7 +186,7 @@ public class petFrame extends javax.swing.JFrame {
 
     private void playButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playButtonActionPerformed
         playingProgressBar.setValue(10);
-        messagePane.setText("Than You! I love you! \nI love to play with you!");
+        messagePane.setText("Thank You! I love you! \nI love to play with you!");
     }//GEN-LAST:event_playButtonActionPerformed
 
     /**
